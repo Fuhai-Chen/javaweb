@@ -1,0 +1,14 @@
+#Wed Sep 16 22:30:49 CST 2020
+tomcat7Server.Clock.isExploded=true
+tomcat7Server.Clock.isUptoDate=true
+tomcat7Server.Clock.contextRoot=/Clock
+tomcat7Server.Clock.isDeployed=true
+tomcat7Server.Clock.shouldBackup=false
+tomcat7Server.Clock.deployIsOverProject=false
+tomcat7Server.Clock.deploymentPath=E\:\\programfiles\\apache-tomcat-8.5.57\\webapps\\Clock
+eclipse.preferences.version=1
+tomcat7Server.Clock.noFileCopy=false
+tomcat7Server.Clock.shouldOverwrite=false
+tomcat7Server.Clock.type=WebDeployment
+tomcat7Server.Clock.altContextRoot=
+tomcat7Server.Clock.IEARProjectName=

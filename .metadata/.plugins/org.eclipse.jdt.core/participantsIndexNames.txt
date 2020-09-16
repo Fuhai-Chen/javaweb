@@ -1,0 +1,3 @@
+INDEX VERSION 1.126
+G:\eclipseworkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\505560930.index
+\Clock\src
