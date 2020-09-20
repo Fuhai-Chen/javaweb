@@ -24,7 +24,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
   <%
-  	String staffid = request.getParameter 
+
   
    %>
     This is my JSP page. <br>

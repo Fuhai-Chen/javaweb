@@ -13,8 +13,13 @@
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
+	<section name="NewHtmlCreationWizardPage">
+		<item value="Default HTML template" key="templatezh_CN"/>
+		<item value="/Chapter_3/WebRoot" key="filePath"/>
+		<item value="HTML 5" key="doctype"/>
+	</section>
 	<section name="NewJspCreationWizardPage">
 		<item value="Default JSP template" key="templatezh_CN"/>
-		<item value="/JSP03/WebRoot" key="filePath"/>
+		<item value="/Chapter_3/WebRoot" key="filePath"/>
 	</section>
 </section>

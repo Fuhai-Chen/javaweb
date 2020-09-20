@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="77" version="2.0">
+<workbench progressCount="74" version="2.0">
 <workbenchAdvisor/>
-<window height="1047" maximized="true" width="974" x="953" y="0">
+<window height="1047" maximized="true" width="974" x="1028" y="261">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="126" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="com.genuitec.eclipse.j2eedt.core.ejb" itemType="typeToolBarContribution" x="55" y="22"/>
+<coolItem id="com.genuitec.eclipse.j2eedt.core.ejb" itemType="typeToolBarContribution" x="57" y="22"/>
 <coolItem id="com.genuitec.eclipse.uml.actions" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="com.genuitec.eclipse.web20.actionset" itemType="typeToolBarContribution" x="38" y="22"/>
-<coolItem id="com.genuitec.eclipse.ws.xfire.actions" itemType="typeToolBarContribution" x="95" y="22"/>
-<coolItem id="com.genuitec.myeclipse.actions.deploytools" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="com.genuitec.eclipse.ws.xfire.actions" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="com.genuitec.myeclipse.actions.deploytools" itemType="typeToolBarContribution" x="103" y="22"/>
 <coolItem id="com.genuitec.myeclipse.actions.desktop" itemType="typeToolBarContribution" x="61" y="22"/>
-<coolItem id="com.genuitec.myeclipse.actions.reporting" itemType="typeToolBarContribution" x="78" y="22"/>
-<coolItem id="com.genuitec.myeclipse.actions.screencapture" itemType="typeToolBarContribution" x="55" y="22"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="175" y="22"/>
-<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="com.genuitec.myeclipse.actions.reporting" itemType="typeToolBarContribution" x="80" y="22"/>
+<coolItem id="com.genuitec.myeclipse.actions.screencapture" itemType="typeToolBarContribution" x="57" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="183" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="80" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="103" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.genuitec.eclipse.webdesigner3.editors.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.genuitec.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.genuitec.eclipse.webdesigner3.editors.jsp" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -44,28 +45,21 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index3.jsp" partName="index3.jsp" path="G:/eclipseworkspace/Clock/WebRoot/index3.jsp" title="index3.jsp" tooltip="Clock/WebRoot/index3.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Clock/WebRoot/index3.jsp"/>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" partName="index.jsp" path="G:/eclipseworkspace/Chapter_3/WebRoot/index.jsp" title="index.jsp" tooltip="Chapter_3/WebRoot/index.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Chapter_3/WebRoot/index.jsp"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="Test.jsp" partName="Test.jsp" path="G:/eclipseworkspace/JSP03/WebRoot/Test.jsp" title="Test.jsp" tooltip="JSP03/WebRoot/Test.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JSP03/WebRoot/Test.jsp"/>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="myJsp.jsp" partName="myJsp.jsp" path="G:/eclipseworkspace/Chapter_3/WebRoot/myJsp.jsp" title="myJsp.jsp" tooltip="Chapter_3/WebRoot/myJsp.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Chapter_3/WebRoot/myJsp.jsp"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" partName="index.jsp" path="G:/eclipseworkspace/JSP03/WebRoot/index.jsp" title="index.jsp" tooltip="JSP03/WebRoot/index.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JSP03/WebRoot/index.jsp"/>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.html" name="myPhoto.html" partName="myPhoto.html" path="G:/eclipseworkspace/Chapter_3/WebRoot/myPhoto.html" title="myPhoto.html" tooltip="Chapter_3/WebRoot/myPhoto.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Chapter_3/WebRoot/myPhoto.html"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="Test2.jsp" partName="Test2.jsp" path="G:/eclipseworkspace/JSP03/WebRoot/Test2.jsp" title="Test2.jsp" tooltip="JSP03/WebRoot/Test2.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JSP03/WebRoot/Test2.jsp"/>
-</editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="Test3.jsp" partName="Test3.jsp" path="G:/eclipseworkspace/JSP03/WebRoot/Test3.jsp" title="Test3.jsp" tooltip="JSP03/WebRoot/Test3.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JSP03/WebRoot/Test3.jsp"/>
-</editor>
-<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="Login.jsp" partName="Login.jsp" path="G:/eclipseworkspace/JSP03/WebRoot/Login.jsp" title="Login.jsp" tooltip="JSP03/WebRoot/Login.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JSP03/WebRoot/Login.jsp"/>
+<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="transBirthday.jsp" partName="transBirthday.jsp" path="G:/eclipseworkspace/Chapter_3/WebRoot/transBirthday.jsp" title="transBirthday.jsp" tooltip="Chapter_3/WebRoot/transBirthday.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Chapter_3/WebRoot/transBirthday.jsp"/>
 </editor>
 </editors>
 <views>
@@ -85,10 +79,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
-<category IMemento.internal.id="Warnings"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -273,8 +263,8 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.7488152" ratioLeft="474" ratioRight="159" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.genuitec.eclipse.ast.deploy.core.serverview" appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.8744076" ratioLeft="1107" ratioRight="159" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="com.genuitec.eclipse.ui.HTMLView" label="Web Browser"/>
@@ -319,35 +309,68 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Clock/WebRoot/index.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/JSP03/WebRoot/Test.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/JSP03/WebRoot/index.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/JSP03/WebRoot/Test2.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/JSP03/WebRoot/Test3.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Clock/WebRoot/index3.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/JSP03/WebRoot/Login.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/JSP03/WebRoot/Test3.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/JSP03/WebRoot/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/JSP03/WebRoot/Test.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_3/WebRoot/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_3/WebRoot/myJsp.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.html" path="/Chapter_3/WebRoot/myPhoto.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_3/WebRoot/transBirthday.jsp"/>
 </editors>
-<item historyLabel="index.jsp" index="0"/>
-<item historyLabel="Test.jsp" index="1"/>
-<item historyLabel="index.jsp" index="2"/>
-<item historyLabel="Test.jsp" index="1">
-<position info="not_deleted" x="990" y="11"/>
+<item historyLabel="index3.jsp" index="0"/>
+<item historyLabel="Login.jsp" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Test2.jsp" index="3"/>
-<item historyLabel="Test3.jsp" index="4"/>
-<item active="true" historyLabel="Login.jsp" index="5"/>
+<item historyLabel="index3.jsp" index="0"/>
+<item historyLabel="Test3.jsp" index="2"/>
+<item historyLabel="index3.jsp" index="0"/>
+<item historyLabel="index.jsp" index="3"/>
+<item historyLabel="index3.jsp" index="0"/>
+<item historyLabel="Test.jsp" index="4"/>
+<item historyLabel="index3.jsp" index="0"/>
+<item historyLabel="index.jsp" index="5"/>
+<item historyLabel="myJsp.jsp" index="6"/>
+<item historyLabel="myPhoto.html" index="7">
+<position info="not_deleted" x="530" y="45"/>
+</item>
+<item historyLabel="myJsp.jsp" index="6"/>
+<item historyLabel="myPhoto.html" index="7"/>
+<item historyLabel="myJsp.jsp" index="6"/>
+<item historyLabel="myPhoto.html" index="7"/>
+<item historyLabel="myPhoto.html" index="7"/>
+<item historyLabel="myJsp.jsp" index="6"/>
+<item historyLabel="index.jsp" index="5"/>
+<item historyLabel="myJsp.jsp" index="6"/>
+<item historyLabel="myPhoto.html" index="7"/>
+<item historyLabel="myJsp.jsp" index="6"/>
+<item historyLabel="myPhoto.html" index="7"/>
+<item historyLabel="myJsp.jsp" index="6"/>
+<item historyLabel="myPhoto.html" index="7"/>
+<item historyLabel="myJsp.jsp" index="6"/>
+<item historyLabel="myPhoto.html" index="7"/>
+<item historyLabel="myJsp.jsp" index="6"/>
+<item historyLabel="index.jsp" index="5"/>
+<item historyLabel="myPhoto.html" index="7"/>
+<item historyLabel="myJsp.jsp" index="6"/>
+<item historyLabel="index.jsp" index="5"/>
+<item historyLabel="myPhoto.html" index="7"/>
+<item historyLabel="transBirthday.jsp" index="8"/>
+<item historyLabel="myJsp.jsp" index="6"/>
+<item historyLabel="transBirthday.jsp" index="8"/>
+<item historyLabel="myPhoto.html" index="7"/>
+<item historyLabel="myJsp.jsp" index="6"/>
+<item historyLabel="transBirthday.jsp" index="8"/>
+<item historyLabel="myPhoto.html" index="7"/>
+<item historyLabel="myJsp.jsp" index="6"/>
+<item active="true" historyLabel="transBirthday.jsp" index="8"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="topleft"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@508b00d5"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@55e3c942"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -355,12 +378,22 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottomleft"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="transBirthday.jsp" tooltip="Chapter_3/WebRoot/transBirthday.jsp">
+<persistable path="/Chapter_3/WebRoot/transBirthday.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.html" name="myPhoto.html" tooltip="Chapter_3/WebRoot/myPhoto.html">
+<persistable path="/Chapter_3/WebRoot/myPhoto.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="myJsp.jsp" tooltip="Chapter_3/WebRoot/myJsp.jsp">
+<persistable path="/Chapter_3/WebRoot/myJsp.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" tooltip="Chapter_3/WebRoot/index.jsp">
+<persistable path="/Chapter_3/WebRoot/index.jsp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="Login.jsp" tooltip="JSP03/WebRoot/Login.jsp">
 <persistable path="/JSP03/WebRoot/Login.jsp"/>
 </file>

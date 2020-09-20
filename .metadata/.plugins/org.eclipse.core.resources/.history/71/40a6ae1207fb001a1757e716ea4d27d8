@@ -1,0 +1,82 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <style type="text/css">
+    	.tb1{
+    		border:1;
+    		background: #fff;
+    		position: absolute;
+    	 	left:50%;
+    	 	top:50%;
+    	 	width:300px;
+    	 	height:200px;
+    	}
+    </style>
+    
+    <title>身份证转生日页面</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+
+  </head>
+  
+  <body>
+  	<!-- 编写思路：
+  			1、使用String数组存储id数据。
+  			2、分别调用
+  	
+  	 -->
+  	 <% String id [] = {"010020199601026929","010020199711126928"}; %>
+  	 <table class = "tb1">
+  	 	<tr>
+  	 		<td>身份证</td>
+  	 		<td>生日</td>
+  	 	</tr>
+  	 	
+  	 	<tr>
+  	 		<td>
+  	 			<%= id[1] %>
+  	 		</td>
+  	 		<!-- 
+  	 			substring()方法: 返回字符串的子字符串
+  	 			(可理解为python的数组切片，但只能用于单个字符串类型数据)注意S是小写
+  	 			语法：
+  	 			
+  	 			public String substring (int beginIndex)
+  	 			or
+  	 			public String substring (int beginIndex, int endIndex)
+  	 			beginIndex起始索引，从0开始；endIndex结束索引，不包括该值。
+  	 		 -->
+			<td>
+				<%= id[1].substring(6,10)  %> - <%= id[1].substring(10,12) %> - <%= id[1].substring(12,14) %>
+			</td>  	 	
+  	 	</tr>
+  	 	
+  	 	<tr>
+  	 		<td>
+  	 			<%= id[2] %>
+  	 		</td>
+  	 		<td>
+  	 			<%= id[1].substring(6,10)  %> - <%= id[1].substring(10,12) %> - <%= id[1].substring(12,14) %>
+  	 		</td>
+  	 	</tr>
+  	 
+  	 
+  	 </table>
+    This is my JSP page. <br>
+  </body>
+</html>
