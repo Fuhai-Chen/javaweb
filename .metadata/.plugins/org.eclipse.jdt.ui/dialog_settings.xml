@@ -20,6 +20,6 @@
 	</section>
 	<section name="NewJspCreationWizardPage">
 		<item value="Default JSP template" key="templatezh_CN"/>
-		<item value="/Chapter_3/WebRoot" key="filePath"/>
+		<item value="/Chapter_4_example/WebRoot" key="filePath"/>
 	</section>
 </section>

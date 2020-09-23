@@ -1,7 +1,9 @@
 INDEX VERSION 1.126
-G:\eclipseworkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\505560930.index
-\Clock\src
-G:\eclipseworkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3744595200.index
-\JSP03\src
 G:\eclipseworkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1091264046.index
 \Chapter_3\src
+G:\eclipseworkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\924070553.index
+\Chapter_4_example\src
+G:\eclipseworkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3744595200.index
+\JSP03\src
+G:\eclipseworkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\505560930.index
+\Clock\src
