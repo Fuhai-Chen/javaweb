@@ -49,7 +49,7 @@ response.setCharacterEncoding("UTF-8")的作用是指定对服务器响应进行
 <%
 	String newname = (String)request.getAttribute("username");
  %>
-
+<!-- 显示为问号？？？ -->
 <%=new String(newname.getBytes("iso-8859-1"),"UTF-8") %>
 <!-- 对getAttribute和getParameter理解有问题，周四问杜老师 -->
 <!-- getAttribute和setAttribute搭配使用，post/get提交和getParameter搭配使用

@@ -1,0 +1,14 @@
+#Thu Sep 24 08:30:51 CST 2020
+tomcat7Server.Chapter_4_example.IEARProjectName=
+tomcat7Server.Chapter_4_example.altContextRoot=
+tomcat7Server.Chapter_4_example.isDeployed=true
+tomcat7Server.Chapter_4_example.noFileCopy=false
+tomcat7Server.Chapter_4_example.deployIsOverProject=false
+eclipse.preferences.version=1
+tomcat7Server.Chapter_4_example.contextRoot=/Chapter_4_example
+tomcat7Server.Chapter_4_example.isUptoDate=true
+tomcat7Server.Chapter_4_example.shouldOverwrite=false
+tomcat7Server.Chapter_4_example.shouldBackup=false
+tomcat7Server.Chapter_4_example.type=WebDeployment
+tomcat7Server.Chapter_4_example.isExploded=true
+tomcat7Server.Chapter_4_example.deploymentPath=E\:\\programfiles\\apache-tomcat-8.5.57\\webapps\\Chapter_4_example
