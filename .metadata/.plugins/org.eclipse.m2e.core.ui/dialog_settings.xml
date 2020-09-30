@@ -2,10 +2,10 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
-			<item value="Chapter_4_example"/>
+			<item value="Chapter_4"/>
 		</list>
 		<list key="artifactId">
-			<item value="Chapter_4_example"/>
+			<item value="Chapter_4"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>

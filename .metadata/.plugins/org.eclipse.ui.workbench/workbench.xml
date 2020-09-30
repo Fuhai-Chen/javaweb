@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="76" version="2.0">
+<workbench progressCount="75" version="2.0">
 <workbenchAdvisor/>
-<window height="1047" maximized="true" width="974" x="-7" y="0">
+<window height="1045" maximized="true" width="974" x="693" y="85">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -27,9 +27,10 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="com.genuitec.eclipse.webdesigner3.editors.html" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.genuitec.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.genuitec.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.genuitec.eclipse.webdesigner3.editors.jsp" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -41,33 +42,12 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" partName="index.jsp" path="G:/eclipseworkspace/Chapter_4_example/WebRoot/index.jsp" title="index.jsp" tooltip="Chapter_4_example/WebRoot/index.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Chapter_4_example/WebRoot/index.jsp"/>
-</editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="reponseDemo02.jsp" partName="reponseDemo02.jsp" path="G:/eclipseworkspace/Chapter_4_example/WebRoot/reponseDemo02.jsp" title="reponseDemo02.jsp" tooltip="Chapter_4_example/WebRoot/reponseDemo02.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Chapter_4_example/WebRoot/reponseDemo02.jsp"/>
-</editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="setCEncoding.jsp" partName="setCEncoding.jsp" path="G:/eclipseworkspace/Chapter_4_example/WebRoot/setCEncoding.jsp" title="setCEncoding.jsp" tooltip="Chapter_4_example/WebRoot/setCEncoding.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Chapter_4_example/WebRoot/setCEncoding.jsp"/>
-</editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="cookieSave.jsp" partName="cookieSave.jsp" path="G:/eclipseworkspace/Chapter_4_example/WebRoot/reponse_comprehensive/cookieSave.jsp" title="cookieSave.jsp" tooltip="Chapter_4_example/WebRoot/reponse_comprehensive/cookieSave.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Chapter_4_example/WebRoot/reponse_comprehensive/cookieSave.jsp"/>
-</editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="cookieQuery.jsp" partName="cookieQuery.jsp" path="G:/eclipseworkspace/Chapter_4_example/WebRoot/reponse_comprehensive/cookieQuery.jsp" title="cookieQuery.jsp" tooltip="Chapter_4_example/WebRoot/reponse_comprehensive/cookieQuery.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Chapter_4_example/WebRoot/reponse_comprehensive/cookieQuery.jsp"/>
-</editor>
-<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="login.jsp" partName="login.jsp" path="G:/eclipseworkspace/Chapter_4_example/WebRoot/reponse_comprehensive/login.jsp" title="login.jsp" tooltip="Chapter_4_example/WebRoot/reponse_comprehensive/login.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Chapter_4_example/WebRoot/reponse_comprehensive/login.jsp"/>
+<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="computer.jsp" partName="computer.jsp" path="G:/eclipseworkspace/Chapter_4/WebRoot/computer/computer.jsp" title="computer.jsp" tooltip="Chapter_4/WebRoot/computer/computer.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Chapter_4/WebRoot/computer/computer.jsp"/>
 </editor>
 </editors>
 <views>
@@ -254,7 +234,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.10317772" ratioLeft="263" ratioRight="2286" relationship="2" relative="cvslocation"/>
+<info part="org.eclipse.ui.editorss" ratio="0.11063162" ratioLeft="282" ratioRight="2267" relationship="2" relative="cvslocation"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@508b00d5" ratio="0.74968714" ratioLeft="599" ratioRight="200" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
@@ -278,8 +258,8 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@73640fcd" ratio="0.7491961" ratioLeft="699" ratioRight="234" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@73640fcd" ratio="0.7614534" ratioLeft="964" ratioRight="302" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.genuitec.eclipse.ast.deploy.core.serverview" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="com.genuitec.eclipse.ui.HTMLView" label="Web Browser"/>
@@ -322,62 +302,76 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/reponse_comprehensive/cookieSave.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/reponse_comprehensive/cookieQuery.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/reponse_comprehensive/login.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/responseDemo01.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/setCEncoding.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/reponseDemo02.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/reponse_comprehensive/cookieSave.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/reponse_comprehensive/cookieQuery.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/reponse_comprehensive/cookieQuery.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/reponse_comprehensive/cookieSave.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/session/login.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/reponseDemo02.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/session/loginSuccess.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/application/applicationDemo01.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/application/applicationDemo02.jsp"/>
+<editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" path="/Chapter_4_example/WebRoot/WEB-INF/web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/Chapter_4_example/WebRoot/application/applicationDemo02.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/application/applicationDemo01.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4/WebRoot/computer/computer.jsp"/>
 </editors>
-<item historyLabel="reponseDemo02.jsp" index="3"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieSave.jsp" index="0"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieQuery.jsp" index="1"/>
-<item historyLabel="cookieSave.jsp" index="0"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieQuery.jsp" index="1"/>
-<item historyLabel="cookieSave.jsp" index="0"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieSave.jsp" index="4"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieQuery.jsp" index="5"/>
-<item historyLabel="cookieSave.jsp" index="4"/>
-<item historyLabel="cookieQuery.jsp" index="5"/>
-<item historyLabel="cookieQuery.jsp" index="5"/>
-<item historyLabel="cookieSave.jsp" index="4"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieQuery.jsp" index="5"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieQuery.jsp" index="5"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieQuery.jsp" index="5"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieQuery.jsp" index="5"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieSave.jsp" index="4"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieQuery.jsp" index="5"/>
-<item historyLabel="cookieSave.jsp" index="4"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieQuery.jsp" index="5"/>
-<item historyLabel="cookieSave.jsp" index="4"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieQuery.jsp" index="5"/>
-<item historyLabel="cookieSave.jsp" index="4"/>
-<item historyLabel="cookieQuery.jsp" index="5"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieQuery.jsp" index="6"/>
-<item historyLabel="cookieSave.jsp" index="7"/>
-<item historyLabel="login.jsp" index="2"/>
-<item historyLabel="cookieSave.jsp" index="7"/>
-<item historyLabel="cookieQuery.jsp" index="6"/>
-<item active="true" historyLabel="login.jsp" index="2"/>
+<item historyLabel="setCEncoding.jsp" index="1"/>
+<item historyLabel="reponseDemo02.jsp" index="2"/>
+<item historyLabel="setCEncoding.jsp" index="1"/>
+<item historyLabel="setCEncoding.jsp" index="1"/>
+<item historyLabel="setCEncoding.jsp" index="1"/>
+<item historyLabel="setCEncoding.jsp" index="1"/>
+<item historyLabel="responseDemo01.jsp" index="0"/>
+<item historyLabel="setCEncoding.jsp" index="1"/>
+<item historyLabel="reponseDemo02.jsp" index="2"/>
+<item historyLabel="setCEncoding.jsp" index="1"/>
+<item historyLabel="login.jsp" index="3"/>
+<item historyLabel="reponseDemo02.jsp" index="4"/>
+<item historyLabel="login.jsp" index="3"/>
+<item historyLabel="loginSuccess.jsp" index="5"/>
+<item historyLabel="login.jsp" index="3"/>
+<item historyLabel="loginSuccess.jsp" index="5"/>
+<item historyLabel="login.jsp" index="3"/>
+<item historyLabel="login.jsp" index="3"/>
+<item historyLabel="login.jsp" index="3"/>
+<item historyLabel="loginSuccess.jsp" index="5"/>
+<item historyLabel="login.jsp" index="3"/>
+<item historyLabel="loginSuccess.jsp" index="5"/>
+<item historyLabel="login.jsp" index="3"/>
+<item historyLabel="login.jsp" index="3"/>
+<item historyLabel="loginSuccess.jsp" index="5"/>
+<item historyLabel="loginSuccess.jsp" index="5"/>
+<item historyLabel="login.jsp" index="3"/>
+<item historyLabel="loginSuccess.jsp" index="5"/>
+<item historyLabel="loginSuccess.jsp" index="5"/>
+<item historyLabel="loginSuccess.jsp" index="5"/>
+<item historyLabel="loginSuccess.jsp" index="5"/>
+<item historyLabel="login.jsp" index="3"/>
+<item historyLabel="loginSuccess.jsp" index="5"/>
+<item historyLabel="loginSuccess.jsp" index="5"/>
+<item historyLabel="login.jsp" index="3"/>
+<item historyLabel="applicationDemo01.jsp" index="6"/>
+<item historyLabel="applicationDemo02.jsp" index="7"/>
+<item historyLabel="web.xml" index="8">
+<position info="not_deleted" x="40" y="236"/>
+</item>
+<item historyLabel="applicationDemo02.jsp" index="7">
+<position info="not_deleted" x="1685" y="0"/>
+</item>
+<item historyLabel="applicationDemo02.jsp" index="9">
+<position info="not_deleted" x="1649" y="0"/>
+</item>
+<item historyLabel="applicationDemo02.jsp" index="9">
+<position info="not_deleted" x="1685" y="0"/>
+</item>
+<item historyLabel="applicationDemo02.jsp" index="9">
+<position info="not_deleted" x="1649" y="0"/>
+</item>
+<item historyLabel="applicationDemo02.jsp" index="9">
+<position info="not_deleted" x="1685" y="0"/>
+</item>
+<item historyLabel="applicationDemo01.jsp" index="10"/>
+<item active="true" historyLabel="computer.jsp" index="11"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -395,6 +389,30 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="computer.jsp" tooltip="Chapter_4/WebRoot/computer/computer.jsp">
+<persistable path="/Chapter_4/WebRoot/computer/computer.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" name="web.xml" tooltip="Chapter_4_example/WebRoot/WEB-INF/web.xml">
+<persistable path="/Chapter_4_example/WebRoot/WEB-INF/web.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="applicationDemo02.jsp" tooltip="Chapter_4_example/WebRoot/application/applicationDemo02.jsp">
+<persistable path="/Chapter_4_example/WebRoot/application/applicationDemo02.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="applicationDemo01.jsp" tooltip="Chapter_4_example/WebRoot/application/applicationDemo01.jsp">
+<persistable path="/Chapter_4_example/WebRoot/application/applicationDemo01.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="loginSuccess.jsp" tooltip="Chapter_4_example/WebRoot/session/loginSuccess.jsp">
+<persistable path="/Chapter_4_example/WebRoot/session/loginSuccess.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="login.jsp" tooltip="Chapter_4_example/WebRoot/session/login.jsp">
+<persistable path="/Chapter_4_example/WebRoot/session/login.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.html" name="myPhoto.html" tooltip="Chapter_3/WebRoot/myPhoto.html">
+<persistable path="/Chapter_3/WebRoot/myPhoto.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="responseDemo01.jsp" tooltip="Chapter_4_example/WebRoot/responseDemo01.jsp">
+<persistable path="/Chapter_4_example/WebRoot/responseDemo01.jsp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="login.jsp" tooltip="Chapter_4_example/WebRoot/reponse_comprehensive/login.jsp">
 <persistable path="/Chapter_4_example/WebRoot/reponse_comprehensive/login.jsp"/>
 </file>
@@ -410,32 +428,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="setCEncoding.jsp" tooltip="Chapter_4_example/WebRoot/setCEncoding.jsp">
 <persistable path="/Chapter_4_example/WebRoot/setCEncoding.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="responseDemo01.jsp" tooltip="Chapter_4_example/WebRoot/responseDemo01.jsp">
-<persistable path="/Chapter_4_example/WebRoot/responseDemo01.jsp"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="responseDemo02_01.jsp" tooltip="Chapter_4_example/WebRoot/responseDemo02_01.jsp">
 <persistable path="/Chapter_4_example/WebRoot/responseDemo02_01.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="reponseDemo02.jsp" tooltip="Chapter_4_example/WebRoot/reponseDemo02.jsp">
-<persistable path="/Chapter_4_example/WebRoot/reponseDemo02.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" tooltip="Chapter_4_example/WebRoot/index.jsp">
-<persistable path="/Chapter_4_example/WebRoot/index.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="requestDemo02.jsp" tooltip="Chapter_4_example/WebRoot/requestDemo02.jsp">
-<persistable path="/Chapter_4_example/WebRoot/requestDemo02.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="error.jsp" tooltip="Chapter_3/WebRoot/error.jsp">
-<persistable path="/Chapter_3/WebRoot/error.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="Compute.jsp" tooltip="Chapter_3/WebRoot/Compute.jsp">
-<persistable path="/Chapter_3/WebRoot/Compute.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="transBirthday.jsp" tooltip="Chapter_3/WebRoot/transBirthday.jsp">
-<persistable path="/Chapter_3/WebRoot/transBirthday.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.html" name="myPhoto.html" tooltip="Chapter_3/WebRoot/myPhoto.html">
-<persistable path="/Chapter_3/WebRoot/myPhoto.html"/>
 </file>
 </mruList>
 </workbench>

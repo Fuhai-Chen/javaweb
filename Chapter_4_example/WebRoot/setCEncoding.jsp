@@ -39,6 +39,7 @@ response.setCharacterEncoding("UTF-8")的作用是指定对服务器响应进行
 <%
 	request.setCharacterEncoding("UTF-8");
 	//有问题！！！！这里设置成ISO-8859-1还是可以？？？是因为没涉及到action、等提交动作？没涉及到服务器？？？(周四问老师！)
+	//解释：在同一个页面中，使用的是同一个request对象，故不需要转换编码类型，（类型已经由页面代码顶部的page指令中的pageEncoding指定了！！）
 	request.setAttribute("username","张三");
 	request.setAttribute("password","123456");
  %>
@@ -46,11 +47,10 @@ response.setCharacterEncoding("UTF-8")的作用是指定对服务器响应进行
 用户名：<%=request.getAttribute("username") %><br>
 密码：<%=request.getAttribute("password") %><br>
 <h1>第二种方法(不推荐使用)</h1><br>使用表达式String（）方法来规定字符串编码类型<br>
-<%
-	String newname = (String)request.getAttribute("username");
- %>
+
+ <%=request.getAttribute("username") %>
 <!-- 显示为问号？？？ -->
-<%=new String(newname.getBytes("iso-8859-1"),"UTF-8") %>
+<!-- --> 
 <!-- 对getAttribute和getParameter理解有问题，周四问杜老师 -->
 <!-- getAttribute和setAttribute搭配使用，post/get提交和getParameter搭配使用
 getAttribute和SetAttribute使用详解： https://blog.csdn.net/GarfieldEr007/article/details/86027012

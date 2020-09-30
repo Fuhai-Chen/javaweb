@@ -39,8 +39,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   				response.addCookie(cookie);
 
   			}
-  		
-  		
+  		 
   		}
   	 %>
   	 <h2>用户名为： &nbsp; <%= username %></h2>
