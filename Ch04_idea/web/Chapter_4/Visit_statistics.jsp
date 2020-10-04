@@ -24,28 +24,60 @@
 <%!
 
 %>
-<%
-    if (pageContext.getAttribute("page_count") == null){ //计数为空
-        pageContext.setAttribute("page_count",new Integer(0));
-    }
-    if (session.getAttribute("session_count") == null){
-        session.setAttribute("session_count",new Integer(0));
-    }
-//    功能未实现。。。思路不对？
+<%--<%--%>
+<%--    if (pageContext.getAttribute("page_count") == null){ //计数为空--%>
+<%--        pageContext.setAttribute("page_count",new Integer(0));--%>
+<%--    }--%>
+<%--    if (session.getAttribute("session_count") == null){--%>
+<%--        session.setAttribute("session_count",new Integer(0));--%>
+<%--    }--%>
+<%--//    功能未实现。。。思路不对？--%>
 
 
-    Integer count1 = (Integer) pageContext.getAttribute("page_count");
-    pageContext.setAttribute("page_count", new Integer(count1.intValue() + 1));
-    Integer count2 = (Integer) session.getAttribute("session_count");
-    session.setAttribute("session_count", new Integer(count2.intValue() + 1));
-//    Integer count3 = (Integer) application.getAttribute("app_count");
-//    application.setAttribute("app_count", new Integer(count3.intValue() + 1));
+<%--    Integer count1 = (Integer) pageContext.getAttribute("page_count");--%>
+<%--    pageContext.setAttribute("page_count", new Integer(count1.intValue() + 1));--%>
+<%--    Integer count2 = (Integer) session.getAttribute("session_count");--%>
+<%--    session.setAttribute("session_count", new Integer(count2.intValue() + 1));--%>
+<%--//    Integer count3 = (Integer) application.getAttribute("app_count");--%>
+<%--//    application.setAttribute("app_count", new Integer(count3.intValue() + 1));--%>
 
-%>
-    <h1>按照用户（浏览器）统计的页面访问次数:<%=pageContext.getAttribute("page_count")%>次。</h1><br>
-    <h1>按照网页刷新次数统计的页面访问次数:<%=session.getAttribute("session_count")%>次。</h1><br>
+<%--%>--%>
+<%--    <h1>按照用户（浏览器）统计的页面访问次数:<%=pageContext.getAttribute("page_count")%>次。</h1><br>--%>
+<%--    <h1>按照网页刷新次数统计的页面访问次数:<%=session.getAttribute("session_count")%>次。</h1><br>--%>
 <%--    <h1>测试次数:<%=application.getAttribute("app_count")%>次。</h1><br>--%>
 
+
+
+<%
+    if(application.getAttribute("counter1")==null){
+        String counter1="1";
+        application.setAttribute("counter1",counter1);
+    }
+    else{
+        int count1=Integer.valueOf((String)application.getAttribute("counter1")).intValue();
+        count1 ++;
+        application.setAttribute("counter1",Integer.toString(count1));
+    }
+
+    if(application.getAttribute("counter2")==null){
+        String counter2="1";    //注意这里初始化为1
+        application.setAttribute("counter2",counter2);
+    }
+    else{
+        int count2=Integer.valueOf((String)application.getAttribute("counter2")).intValue();
+        if (session.isNew()) {
+            count2 ++;
+            application.setAttribute("counter2",Integer.toString(count2));
+        }
+
+//        int count2=Integer.valueOf((String)application.getAttribute("counter2")).intValue();
+//        count2 ++;
+//        application.setAttribute("counter2",Integer.toString(count2));
+    }
+%>
+
+该网站共被访问：<%=application.getAttribute("counter1") %>次。
+该网站共被访问：<%=application.getAttribute("counter2") %>次。
 
 </body>
 </html>
