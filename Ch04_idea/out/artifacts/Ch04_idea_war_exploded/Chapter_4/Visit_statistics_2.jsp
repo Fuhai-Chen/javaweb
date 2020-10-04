@@ -21,6 +21,10 @@
         map.put(session.getId(),session.getId());
     %>
 
+    按照浏览器(客户): <%= map.size() %>
+    <br>
+    按照刷新页面: <%= ++count1 %>
 
+    <%--idea by renbingzhang--%>
 </body>
 </html>

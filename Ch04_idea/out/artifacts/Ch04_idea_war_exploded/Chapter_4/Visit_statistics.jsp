@@ -47,7 +47,6 @@
 <%--    <h1>测试次数:<%=application.getAttribute("app_count")%>次。</h1><br>--%>
 
 
-
 <%
     if(application.getAttribute("counter1")==null){
         String counter1="1";
