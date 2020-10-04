@@ -20,7 +20,7 @@
     <%
         map.put(session.getId(),session.getId());
     %>
-
+<%--idea by renbingzhang--%>
 
 </body>
 </html>
