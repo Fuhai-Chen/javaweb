@@ -69,9 +69,6 @@
             application.setAttribute("counter2",Integer.toString(count2));
         }
 
-//        int count2=Integer.valueOf((String)application.getAttribute("counter2")).intValue();
-//        count2 ++;
-//        application.setAttribute("counter2",Integer.toString(count2));
     }
 %>
 
