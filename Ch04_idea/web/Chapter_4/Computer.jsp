@@ -20,8 +20,8 @@
                 return false;
             }
             //如果填的是是文字？？？怎么处理
+            // isNaN()好像有些问题，null和字符会被判定为0
             //自定义errorpage页面，列出异常信息
-            // isNaN()好像有些问题
 
             // if (document.form1.firstnum.value.isNaN()){
             //     window.alert("请检查计算参数格式")

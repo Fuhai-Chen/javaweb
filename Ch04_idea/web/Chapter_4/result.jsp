@@ -12,8 +12,8 @@
 </head>
 <body>
     <%!
-    //        参数初始化
-    int num1 = 0, num2 = 0, result = 0;
+        //        参数初始化
+        int num1 = 0, num2 = 0, result = 0;
     %>
     <%
 
