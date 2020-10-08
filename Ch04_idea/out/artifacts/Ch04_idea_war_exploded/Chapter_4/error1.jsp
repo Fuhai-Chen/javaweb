@@ -13,6 +13,7 @@
 <body>
     页面发生了异常，以下是对异常的描述：<br>
     <%= exception.toString() %><br>
+
     <a href="Computer.jsp">返回计算器主页</a>
 </body>
 </html>

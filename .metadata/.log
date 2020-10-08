@@ -4318,3 +4318,12 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.jdt.core 2 0 2020-09-28 19:12:37.438
 !MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_201/jre/lib/ext/sunpkcs11.jar|sun/security/pkcs11/P11KeyAgreement$AllowKDF.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!SESSION 2020-10-08 15:18:08.564 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-10-08 15:18:20.479
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2

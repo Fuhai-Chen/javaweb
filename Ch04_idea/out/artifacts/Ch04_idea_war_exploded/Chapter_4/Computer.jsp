@@ -22,13 +22,24 @@
             //如果填的是是文字？？？怎么处理
             // isNaN()好像有些问题，null和字符会被判定为0
             //自定义errorpage页面，列出异常信息
-
+            //错误实例
             // if (document.form1.firstnum.value.isNaN()){
             //     window.alert("请检查计算参数格式")
             // }
             // if (document.form1.secnum.value.isNaN()){
             //     window.alert("请检查计算参数格式")
             // }
+
+
+            //人家是这样用的！！！
+            if (isNaN(document.form1.firstnum.value)){
+                window.alert("运算数框内请填写纯数字");
+                return false;
+            }
+            if (isNaN(document.form1.secnum.value)){
+                window.alert("运算数内请填写请填写纯数字");
+                return false;
+            }
         }
 
     </script>

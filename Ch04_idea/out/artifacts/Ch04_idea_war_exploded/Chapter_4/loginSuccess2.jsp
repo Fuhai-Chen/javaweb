@@ -12,6 +12,7 @@
 </head>
 <%
     request.setCharacterEncoding("UTF-8");
+//    大小写没关系，方法设置成post
 %>
 <body>
     用户名：<%=request.getParameter("username")%><br>
