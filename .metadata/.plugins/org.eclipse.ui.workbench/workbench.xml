@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="75" version="2.0">
+<workbench progressCount="76" version="2.0">
 <workbenchAdvisor/>
-<window height="1045" maximized="true" width="974" x="693" y="85">
+<window height="1045" width="974" x="595" y="479">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="212" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.genuitec.eclipse.j2eedt.core.ejb" itemType="typeToolBarContribution" x="55" y="22"/>
 <coolItem id="com.genuitec.eclipse.uml.actions" itemType="typeToolBarContribution" x="61" y="22"/>
@@ -27,6 +27,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="com.genuitec.eclipse.webdesigner3.editors.html" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -46,8 +47,8 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="computer.jsp" partName="computer.jsp" path="G:/eclipseworkspace/Chapter_4/WebRoot/computer/computer.jsp" title="computer.jsp" tooltip="Chapter_4/WebRoot/computer/computer.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Chapter_4/WebRoot/computer/computer.jsp"/>
+<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="userRegister.jsp" partName="userRegister.jsp" path="G:/陈福海文件/javaweb/源代码.rar/《JSP程序设计与案例实战》章节源代码/第四章/jspdemopro/WebRoot/ch4/request/userRegister.jsp" title="userRegister.jsp" tooltip="jspdemopro/WebRoot/ch4/request/userRegister.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/jspdemopro/WebRoot/ch4/request/userRegister.jsp"/>
 </editor>
 </editors>
 <views>
@@ -113,7 +114,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.genuitec.eclipse.webdesigner3.editors.jsp" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory" id="com.genuitec.myeclipse.perspective.myeclipseperspective" label="MyEclipse Java Enterprise"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
@@ -314,11 +315,11 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/Chapter_4_example/WebRoot/application/applicationDemo02.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4_example/WebRoot/application/applicationDemo01.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Chapter_4/WebRoot/computer/computer.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/jspdemopro/WebRoot/ch4/page/pageDemo01.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/jspdemopro/WebRoot/ch4/request/requestDemo01.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/jspdemopro/WebRoot/ch4/request/requestDemo02.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/jspdemopro/WebRoot/ch4/request/userRegister.jsp"/>
 </editors>
-<item historyLabel="setCEncoding.jsp" index="1"/>
-<item historyLabel="reponseDemo02.jsp" index="2"/>
-<item historyLabel="setCEncoding.jsp" index="1"/>
-<item historyLabel="setCEncoding.jsp" index="1"/>
 <item historyLabel="setCEncoding.jsp" index="1"/>
 <item historyLabel="setCEncoding.jsp" index="1"/>
 <item historyLabel="responseDemo01.jsp" index="0"/>
@@ -371,7 +372,15 @@
 <position info="not_deleted" x="1685" y="0"/>
 </item>
 <item historyLabel="applicationDemo01.jsp" index="10"/>
-<item active="true" historyLabel="computer.jsp" index="11"/>
+<item historyLabel="computer.jsp" index="11"/>
+<item historyLabel="pageDemo01.jsp" index="12"/>
+<item historyLabel="requestDemo01.jsp" index="13"/>
+<item historyLabel="requestDemo02.jsp" index="14"/>
+<item historyLabel="pageDemo01.jsp" index="12"/>
+<item historyLabel="requestDemo02.jsp" index="14"/>
+<item historyLabel="requestDemo01.jsp" index="13"/>
+<item historyLabel="requestDemo02.jsp" index="14"/>
+<item active="true" historyLabel="userRegister.jsp" index="15"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -389,6 +398,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="userRegister.jsp" tooltip="jspdemopro/WebRoot/ch4/request/userRegister.jsp">
+<persistable path="/jspdemopro/WebRoot/ch4/request/userRegister.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="requestDemo02.jsp" tooltip="jspdemopro/WebRoot/ch4/request/requestDemo02.jsp">
+<persistable path="/jspdemopro/WebRoot/ch4/request/requestDemo02.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="requestDemo01.jsp" tooltip="jspdemopro/WebRoot/ch4/request/requestDemo01.jsp">
+<persistable path="/jspdemopro/WebRoot/ch4/request/requestDemo01.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="pageDemo01.jsp" tooltip="jspdemopro/WebRoot/ch4/page/pageDemo01.jsp">
+<persistable path="/jspdemopro/WebRoot/ch4/page/pageDemo01.jsp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="computer.jsp" tooltip="Chapter_4/WebRoot/computer/computer.jsp">
 <persistable path="/Chapter_4/WebRoot/computer/computer.jsp"/>
 </file>
@@ -418,18 +439,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="cookieQuery.jsp" tooltip="Chapter_4_example/reponse_comprehensive/cookieQuery.jsp">
 <persistable path="/Chapter_4_example/reponse_comprehensive/cookieQuery.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="cookieSave.jsp" tooltip="Chapter_4_example/reponse_comprehensive/cookieSave.jsp">
-<persistable path="/Chapter_4_example/reponse_comprehensive/cookieSave.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="login.jsp" tooltip="Chapter_4_example/reponse_comprehensive/login.jsp">
-<persistable path="/Chapter_4_example/reponse_comprehensive/login.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="setCEncoding.jsp" tooltip="Chapter_4_example/WebRoot/setCEncoding.jsp">
-<persistable path="/Chapter_4_example/WebRoot/setCEncoding.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="responseDemo02_01.jsp" tooltip="Chapter_4_example/WebRoot/responseDemo02_01.jsp">
-<persistable path="/Chapter_4_example/WebRoot/responseDemo02_01.jsp"/>
 </file>
 </mruList>
 </workbench>

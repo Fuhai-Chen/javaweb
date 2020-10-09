@@ -13,6 +13,16 @@
 <body>
     <jsp:useBean id="car1" class="Chapter_5.Car" scope="session"></jsp:useBean>
     汽车的颜色是：<jsp:getProperty name="car1" property="carColor"/><br>
-    汽车是否安装了空调： <jsp:getProperty name="car1" property="airconditioner"/>
+    汽车是否安装了空调：
+
+<%
+    Boolean a = car1.getAirconditioner();
+    if (a){
+        out.print("是");
+    }
+    else {
+        out.print("否");
+    }
+%>
 </body>
 </html>

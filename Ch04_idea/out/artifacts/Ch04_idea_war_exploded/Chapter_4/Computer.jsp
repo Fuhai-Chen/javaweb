@@ -18,6 +18,7 @@
             if (document.form1.secnum.value == "0" && document.form1.flag.value == "divide"){
                 window.alert("除数不能为0");
                 return false;
+            //    Boolean默认值是false！！！
             }
             //如果填的是是文字？？？怎么处理
             // isNaN()好像有些问题，null和字符会被判定为0
@@ -65,3 +66,4 @@
 
 </body>
 </html>
+
