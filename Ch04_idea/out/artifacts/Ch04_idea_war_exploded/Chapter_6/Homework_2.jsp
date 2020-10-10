@@ -19,8 +19,8 @@
     <%
 
 
-        double num1 = 123;
-        double num2 = 456;
+        int num1 = 123;
+        int num2 = 456;
 
 //        double num1 = Double.parseDouble(request.getParameter("num1"));
 //        double num2 = Double.parseDouble(request.getParameter("num2"));
@@ -37,6 +37,6 @@
         session.setAttribute("flag",flag);
     %>
     比较结果为：<br>
-    <h1> ${num1} ${flag} ${num2} <h1>
+    <h1> ${num1} ${flag} ${num2} </h1>
 </body>
 </html>

@@ -40,7 +40,8 @@
 %>
 <body style="background: ${bgcolor} ">
     <form action="Homework_3.jsp" method="post">
-        <table style="width: ${tablewidth}px; border: ${border}; border-width: medium;font-size: ${fontsize}px">
+
+        <table style="width: ${tablewidth}px; border: ${border}px solid; font-size: ${fontsize}px">
             <tr>
                 <td>背景颜色：<input type="text" name="bgcolor"></td>
             </tr>
@@ -50,6 +51,7 @@
             <tr>
                 <td>表格宽度：<input type="text" name="tablewidth"></td>
             </tr>
+<%--            border一直不显示！！！     --%>
             <tr>
                 <td>边框：<input type="text" name="border"></td>
             </tr>
