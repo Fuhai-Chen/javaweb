@@ -16,7 +16,9 @@
 <%!
     Map<String,Double> results = new HashMap<String, Double>();
 %>
-<%--数值不能超过100，如何实现--%>
+<%--数值不能超过100，如何实现
+random.nextdouble() 取0-1double数，再乘100得
+--%>
 <%
     Random rm1 = new Random();
     results.put("English",rm1.nextDouble()*100);
@@ -28,7 +30,7 @@
 
 %>
 
-成绩信息如下：
+<h1>成绩信息如下：</h1>
 
 <hr>
 该学生的总成绩是：${resluts.English + resluts.Math + resluts.MIS + resluts.JSP + resluts.Java}<br>
