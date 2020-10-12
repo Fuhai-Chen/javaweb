@@ -10,6 +10,7 @@
 <head>
     <title>通过EL实现页面相应属性的修改</title>
 </head>
+<%--初始化、获取输入值--%>
 <%
     if (session.getAttribute("bgcolor") == null){
         session.setAttribute("bgcolor","white");

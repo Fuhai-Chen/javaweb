@@ -1,6 +1,5 @@
-<%@ page import="java.util.Map" %>
-<%@ page import="java.util.HashMap" %>
-<%@ page import="java.util.Random" %><%--
+<%@ page import="java.util.*" %>
+<%--
   Created by IntelliJ IDEA.
   User: 15662
   Date: 2020/10/9
@@ -26,11 +25,23 @@ random.nextdouble() 取0-1double数，再乘100得
     results.put("MIS",rm1.nextDouble()*100);
     results.put("JSP",rm1.nextDouble()*100);
     results.put("Java",rm1.nextDouble()*100);
-    session.setAttribute("resluts",results);
 
 %>
-
 <h1>成绩信息如下：</h1>
+<%
+    Set<String> mapSet = results.keySet();
+    Iterator<String> itor = mapSet.iterator();
+    while (itor.hasNext()){ //存在下一个值
+        String key = itor.next();
+        Double value = results.get(key);
+        session.setAttribute("key", key);
+        session.setAttribute("value", value);
+
+%>
+    ${key} score: ${value};<br>
+<%
+    }
+%>
 
 <hr>
 该学生的总成绩是：${resluts.English + resluts.Math + resluts.MIS + resluts.JSP + resluts.Java}<br>
