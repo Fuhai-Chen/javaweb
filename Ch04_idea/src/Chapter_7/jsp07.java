@@ -167,7 +167,7 @@ public class jsp07 {
 //        jsp07.useralt(6, 6,"王皓皓","manager", 5000, 20);
 //        jsp07.userdel(6);
 //        jsp07.userquery("derk");
-        jsp07.usershow();
+//        jsp07.usershow();
 
     }
 }
