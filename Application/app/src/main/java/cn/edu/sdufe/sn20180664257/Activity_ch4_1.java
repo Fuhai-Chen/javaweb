@@ -9,6 +9,14 @@ import android.widget.TextView;
 
 public class Activity_ch4_1 extends AppCompatActivity implements Button.OnClickListener{
 
+    TextView textView1 = (TextView) findViewById(R.id.ch4_1_tv1);
+    Button button1 = (Button) findViewById(R.id.ch4_1_bt1);
+    Button button2 = (Button) findViewById(R.id.ch4_1_bt2);
+    Button button3 = (Button) findViewById(R.id.ch4_1_bt3);
+    Button button4 = (Button) findViewById(R.id.ch4_1_bt4);
+    EditText editText1 = (EditText) findViewById(R.id.ch4_1_et1);
+    EditText editText2 = (EditText) findViewById(R.id.ch4_1_et2);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,21 +26,12 @@ public class Activity_ch4_1 extends AppCompatActivity implements Button.OnClickL
         //初始化运算数
 
         //获取各界面组件
-//        TextView textView1 = (TextView) findViewById(R.id.ch4_1_tv1);
-        Button button1 = (Button) findViewById(R.id.ch4_1_bt1);
-        Button button2 = (Button) findViewById(R.id.ch4_1_bt2);
-        Button button3 = (Button) findViewById(R.id.ch4_1_bt3);
-//        Button button4 = (Button) findViewById(R.id.ch4_1_bt4);
-//        EditText editText1 = (EditText) findViewById(R.id.ch4_1_et1);
-//        EditText editText2 = (EditText) findViewById(R.id.ch4_1_et2);
+
 
         //1)使用内部匿名类的形式
         button1.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View v){
-                TextView textView1 = (TextView) findViewById(R.id.ch4_1_tv1);
-                EditText editText1 = (EditText) findViewById(R.id.ch4_1_et1);
-                EditText editText2 = (EditText) findViewById(R.id.ch4_1_et2);
                 int num1 = Integer.parseInt(editText1.getText().toString());
                 int num2 = Integer.parseInt(editText2.getText().toString());
                 int result = num1 + num2;
@@ -55,9 +54,6 @@ public class Activity_ch4_1 extends AppCompatActivity implements Button.OnClickL
     class MyListener1 implements View.OnClickListener{
         @Override
         public void onClick(View view){
-            TextView textView1 = (TextView) findViewById(R.id.ch4_1_tv1);
-            EditText editText1 = (EditText) findViewById(R.id.ch4_1_et1);
-            EditText editText2 = (EditText) findViewById(R.id.ch4_1_et2);
             int num1 = Integer.parseInt(editText1.getText().toString());
             int num2 = Integer.parseInt(editText2.getText().toString());
             int result = num1 - num2;
@@ -70,9 +66,6 @@ public class Activity_ch4_1 extends AppCompatActivity implements Button.OnClickL
     //实现监听器接口的方法
     @Override
     public void onClick(View v) {
-        TextView textView1 = (TextView) findViewById(R.id.ch4_1_tv1);
-        EditText editText1 = (EditText) findViewById(R.id.ch4_1_et1);
-        EditText editText2 = (EditText) findViewById(R.id.ch4_1_et2);
         int num1 = Integer.parseInt(editText1.getText().toString());
         int num2 = Integer.parseInt(editText2.getText().toString());
         int result = num1 * num2;
@@ -81,9 +74,6 @@ public class Activity_ch4_1 extends AppCompatActivity implements Button.OnClickL
     }
 
     public void onClick2(View v) {
-        TextView textView1 = (TextView) findViewById(R.id.ch4_1_tv1);
-        EditText editText1 = (EditText) findViewById(R.id.ch4_1_et1);
-        EditText editText2 = (EditText) findViewById(R.id.ch4_1_et2);
         int num1 = Integer.parseInt(editText1.getText().toString());
         int num2 = Integer.parseInt(editText2.getText().toString());
         int result = num1 / num2;
