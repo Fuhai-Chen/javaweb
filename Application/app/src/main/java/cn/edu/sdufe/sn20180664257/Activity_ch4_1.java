@@ -25,6 +25,7 @@ public class Activity_ch4_1 extends AppCompatActivity implements Button.OnClickL
 
         //初始化运算数
 
+
         //获取各界面组件
 
 
