@@ -28,12 +28,13 @@
     <form name="form1" action="Homework_2.jsp" method="post">
         请输入第一个数：<input type="text" name="num1" value=""><br>
         请输入第二个数：<input type="text" name="num2" value=""><br>
-        <button type="submit" onclick="onClickCheck()">进行比较</button> &nbsp;&nbsp; <button type="reset">重置</button>
+        <button type="submit" onmousedown="onClickCheck()">进行比较</button> &nbsp;&nbsp; <button type="reset">重置</button>
+<%--        这里调用的是onmousedown方法，故在鼠标点击按钮时就已经执行相应方法，从而中断表单数据提交。   --%>
     </form>
 
     <%
         //第一次编译不传值，故加个判断，先清空session
-        if (request.getParameter("num1") != null && request.getParameter("num2") != null) {
+        if (request.getParameter("num1") != null) {
             int num1 = Integer.parseInt(request.getParameter("num1"));
             int num2 = Integer.parseInt(request.getParameter("num2"));
             //        String num11 = Integer.toString(num1);

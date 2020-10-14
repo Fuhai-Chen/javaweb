@@ -1,4 +1,4 @@
-package Chapter_7_example;
+package Chapter_7;
 
 import java.sql.*;
 

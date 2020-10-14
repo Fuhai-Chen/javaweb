@@ -25,7 +25,7 @@ random.nextdouble() 取0-1double数，再乘100得
     results.put("MIS",rm1.nextDouble()*100);
     results.put("JSP",rm1.nextDouble()*100);
     results.put("Java",rm1.nextDouble()*100);
-
+    session.setAttribute("resluts1",results);
 %>
 <h1>成绩信息如下：</h1>
 <%
@@ -44,8 +44,8 @@ random.nextdouble() 取0-1double数，再乘100得
 %>
 
 <hr>
-该学生的总成绩是：${resluts.English + resluts.Math + resluts.MIS + resluts.JSP + resluts.Java}<br>
-该学生的平均成绩是：${(resluts.English + resluts.Math + resluts.MIS + resluts.JSP + resluts.Java) / resluts.size()}
+该学生的总成绩是：${resluts1.English + resluts1.Math + resluts1.MIS + resluts1.JSP + resluts1.Java}<br>
+该学生的平均成绩是：${(resluts1.English + resluts1.Math + resluts1.MIS + resluts1.JSP + resluts1.Java) / resluts1.size()}
 
 </body>
 </html>
