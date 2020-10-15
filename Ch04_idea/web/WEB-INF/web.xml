@@ -32,4 +32,18 @@
             <taglib-location>/WEB-INF/tld/c.tld</taglib-location>
         </taglib>
     </jsp-config>
+
+<!--    新建的servlet-->
+    <servlet>
+        <servlet-name>servletLifeDemo01</servlet-name>
+        <servlet-class>Chapter_9_example.TestServlet</servlet-class>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>zhangsan</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletLifeDemo01</servlet-name>
+        <url-pattern>/servletLifeDemo01</url-pattern>
+    </servlet-mapping>
 </web-app>
