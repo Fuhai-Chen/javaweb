@@ -8,7 +8,8 @@ public class ConnectionPool {
         Connection conn = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/runobb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC", "root", "1234");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/runobb?" +
+                    "useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC", "root", "1234");
 
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
@@ -16,6 +17,7 @@ public class ConnectionPool {
         return conn;
     }
 
+    //逆向关闭
     public static void close(Statement stmt, Connection conn){
         try {
             if (stmt != null){

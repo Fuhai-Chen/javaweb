@@ -19,10 +19,12 @@ public class jsp07 {
      * @param salary
      * @param dept
      */
+    //        jsp07.useradd(6,"王皓皓","manager", 5000, 20);
     public static void useradd(int empId, String empName, String job, double salary, int dept){
         try {
 
 
+            //连接
             conn = ConnectionPool.getConn();
             String sql = "INSERT INTO `runobb`.`employee` (`EMP_ID`, `EMP_NAME`, `JOB`, `SALARY`, `DEPT`) VALUES (?, ?, ?, ?, ?);";
             stmt = conn.prepareStatement(sql);
@@ -56,19 +58,21 @@ public class jsp07 {
      * @param salary
      * @param dept
      */
-    public static void useralt(int empId, int empId2, String empName, String job, double salary, int dept){
-        try {
-            conn = ConnectionPool.getConn();
-            String sql = "UPDATE `runobb`.`employee` SET `EMP_ID` = ?, `EMP_NAME` = ?, `JOB` = ?, `SALARY` = ?, `DEPT` = ? WHERE (`EMP_ID` = ?);";
-            stmt = conn.prepareStatement(sql);
-            stmt.setInt(1, empId2);
-            stmt.setString(2, empName);
-            stmt.setString(3, job);
-            stmt.setDouble(4, salary);
-            stmt.setInt(5, dept);
-            stmt.setInt(6, empId);
+    //        jsp07.useralt(6, 6,"王皓皓","manager", 5000, 20);
 
-            int a = stmt.executeUpdate();
+    public static void useralt(int empId, int empId2, String empName, String job, double salary, int dept){
+                try {
+                    conn = ConnectionPool.getConn();
+                    String sql = "UPDATE `runobb`.`employee` SET `EMP_ID` = ?, `EMP_NAME` = ?, `JOB` = ?, `SALARY` = ?, `DEPT` = ? WHERE (`EMP_ID` = ?);";
+                    stmt = conn.prepareStatement(sql);
+                    stmt.setInt(1, empId2);
+                    stmt.setString(2, empName);
+                    stmt.setString(3, job);
+                    stmt.setDouble(4, salary);
+                    stmt.setInt(5, dept);
+                    stmt.setInt(6, empId);
+
+                    int a = stmt.executeUpdate();
 
             //判断一下是否修改成功
             if (a > 0) {
@@ -137,7 +141,7 @@ public class jsp07 {
         }
     }
 
-    //2、将所有员工信息展示出来，按员工信息(无参)
+    //2、将所有员工信息展示出来，按员工信息分类展示(无参)
     public static void usershow(){
         try {
             conn = ConnectionPool.getConn();
@@ -164,10 +168,10 @@ public class jsp07 {
 
     public static void main(String[] args) {
 //        jsp07.useradd(6,"王皓皓","manager", 5000, 20);
-//        jsp07.useralt(6, 6,"王皓皓","manager", 5000, 20);
-//        jsp07.userdel(6);
-//        jsp07.userquery("derk");
-//        jsp07.usershow();
+//        jsp07.useralt(6, 6,"王皓皓","manager", 4000, 10);
+//        jsp07.userdel(5);
+//        jsp07.userquery("manager");
+        jsp07.usershow();
 
     }
 }

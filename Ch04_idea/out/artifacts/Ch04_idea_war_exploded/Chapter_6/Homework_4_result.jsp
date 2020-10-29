@@ -28,7 +28,7 @@
                     if (j==2 && i*j<10) {
                         out.print("&nbsp;&nbsp;&nbsp;&nbsp;");
                     }else {
-                        out.print("&nbsp;&nbsp;");
+                        out.print("&nbsp;&nbsp;" );
                     }
                 }
         %>

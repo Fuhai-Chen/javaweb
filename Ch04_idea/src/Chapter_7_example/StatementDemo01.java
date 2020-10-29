@@ -43,14 +43,11 @@ public class StatementDemo01 {
             try {
                 if (result != null){
                     result.close();
-                    result = null;
                 }
                 if (stmt != null){
                     stmt.close();
-                    stmt = null;
                 }if (conn != null){
                     conn.close();
-                    conn = null;
                 }
             } catch (SQLException e) {
                 e.printStackTrace();
@@ -79,6 +76,8 @@ public class StatementDemo01 {
             //4、修改emp表的信息
             String updateStr = "update emp set sal=1500 where empno='7499'";
             int result1 = stmt.executeUpdate(updateStr);
+            //(1)查询--》返回值（Resultset）
+            //(2)更新--》返回值（修改的行数）
             if (result1 > 0 ){
                 System.out.println("更新成功！");
             }else {

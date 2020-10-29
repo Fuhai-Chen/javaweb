@@ -1,21 +1,20 @@
-package Chapter_9_example;
+package Chapter_10_example;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "Servlet")
-public class Servlet extends HttpServlet {
+public class cookieServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-
-
+        doGet(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        this.doPost();
+        String[] chekbox = request.getParameterValues("chkbox");
+        for (int i = 0; i < chekbox.length; i ++){
+            System.out.println(chekbox[i]);
+        }
     }
 }

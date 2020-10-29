@@ -18,6 +18,9 @@
         String bgcolor = request.getParameter("bgcolor");
         session.setAttribute("bgcolor",bgcolor);
     }
+
+
+
     if (session.getAttribute("fontsize") == null){
         session.setAttribute("fontsize","10");
     }else {

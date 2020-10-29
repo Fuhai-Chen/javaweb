@@ -4,6 +4,9 @@ import java.sql.*;
 
 public class ConnectionPool {
 
+    //static : 不需要实例化一个对象，就能调用这个方法
+//    ConnectionPool。getConn()
+//    ConnectionPool c1 = new ConnectionPool();
     public static Connection getConn(){
         Connection conn = null;
         try {
@@ -33,12 +36,12 @@ public class ConnectionPool {
 
     public static void close(Statement stmt, ResultSet rs, Connection conn){
         try {
+            if (rs != null){
+                rs.close();
+            }
             if (stmt != null){
                 stmt.close();
                 stmt = null;
-            }
-            if (rs != null){
-                rs.close();
             }
             if (conn != null){
                 conn.close();

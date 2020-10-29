@@ -12,6 +12,7 @@ public class DriverManagerDemo {
         //加载驱动程序并自动注册连接实例
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
+            //加载一个驱动，并实例化一个对象new
             //设置url
             String url = "jdbc:mysql://localhost:3306/runobb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
             //设置用户名和密码
@@ -21,11 +22,11 @@ public class DriverManagerDemo {
             //通过DriverManager向DB发出连接请求，获得连接对象
             coon = DriverManager.getConnection(url, username, password);
             if (coon != null){
-                System.out.println("数据库连接成功");
-            }else {
-                System.out.println("数据库连接失败");
-            }
+            System.out.println("数据库连接成功");
+        }else {
+            System.out.println("数据库连接失败");
         }
+    }
         catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

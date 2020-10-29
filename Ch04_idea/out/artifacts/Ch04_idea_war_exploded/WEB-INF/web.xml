@@ -3,6 +3,104 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
+<!--    第十章P173案例一添加代码(10/17添加)-->
+
+    <servlet>
+        <servlet-name>servletContextDemo01</servlet-name>
+        <servlet-class>Chapter_10_example.ServletContextDemo01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletContextDemo01</servlet-name>
+        <url-pattern>/servletContextDemo01</url-pattern>
+    </servlet-mapping>
+<!--        使用context-param元素添加web初始化参数信息（直接添加在web-app中）-->
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>scott</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>tiger</param-value>
+    </context-param>
+<!--    第十章P173案例一添加代码-->
+
+<!--    第十章P174案例二添加代码(10/19添加)    -->
+    <servlet>
+        <servlet-name>ServletContextDemo02</servlet-name>
+        <servlet-class>Chapter_10_example.ServletContextDemo02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletContextDemo02</servlet-name>
+        <url-pattern>/servletContextDemo02</url-pattern>
+    </servlet-mapping>
+<!--    第十章P174案例二添加代码-->
+
+
+<!--    第十章P170案例二添加代码(10/19添加)-->
+    <servlet>
+        <servlet-name>ServletConfigDemo01</servlet-name>
+        <servlet-class>Chapter_10_example.ServletConfigDemo01</servlet-class>
+<!--        这里定义初始化参数,定义参数必须放在name和class属性后面-->
+        <init-param>
+            <param-name>para1</param-name>
+            <param-value>value1</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletConfigDemo01</servlet-name>
+        <url-pattern>/servletConfigDemo01</url-pattern>
+    </servlet-mapping>
+<!--        第十章P170案例二添加代码(10/19添加)-->
+
+
+<!--        第十章P170案例三添加代码(10/19添加)-->
+    <servlet>
+        <servlet-name>ServletContextDemo03</servlet-name>
+        <servlet-class>Chapter_10_example.ServletContextDemo03</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletContextDemo03</servlet-name>
+        <url-pattern>/servletContextDemo03</url-pattern>
+    </servlet-mapping>
+<!--            第十章P170案例三添加代码(10/19添加)-->
+
+<!--    第十章P1187HttpServletResponse实现文件下载额外案例添加代码-->
+    <servlet>
+        <servlet-name>ServletResponseDemo02</servlet-name>
+        <servlet-class>Chapter_10_example.ServletResponseDemo02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletResponseDemo02</servlet-name>
+        <url-pattern>/servletResponseDemo02</url-pattern>
+    </servlet-mapping>
+<!--    第十章P1187HttpServletResponse实现文件下载额外案例添加代码-->
+
+<!--        第十章P1189转发案例添加代码-->
+    <servlet>
+        <servlet-name>logincheckServlet</servlet-name>
+        <servlet-class>Chapter_10_example.logincheckServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logincheckServlet</servlet-name>
+        <url-pattern>/logincheckServlet</url-pattern>
+    </servlet-mapping>
+<!--            第十章P1189转发案例添加代码-->
+
+<!--    cookie 案例添加代码-->
+    <servlet>
+        <servlet-name>cookieServlet</servlet-name>
+        <servlet-class>Chapter_10_example.cookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cookieServlet</servlet-name>
+        <url-pattern>/cookieServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
     <servlet>
 <!--        指定servlet的名字-->
         <servlet-name>config</servlet-name> <!--有问题？ -->
@@ -32,4 +130,96 @@
             <taglib-location>/WEB-INF/tld/c.tld</taglib-location>
         </taglib>
     </jsp-config>
+
+
+<!-- 第九章案例添加代码（10/5添加）-->
+
+
+    <servlet>
+        <servlet-name>servletLifeDemo01</servlet-name>
+        <servlet-class>Chapter_9_example.TestServlet</servlet-class>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>zhangsan</param-value>
+        </init-param>
+    </servlet>
+
+
+
+    <servlet-mapping>
+        <servlet-name>servletLifeDemo01</servlet-name>
+        <url-pattern>/servletLifeDemo01</url-pattern>
+    </servlet-mapping>
+
+    <!-- 第九章案例添加代码-->
+
+<!--    第十一章过滤器-->
+
+<!--    code1-->
+
+    <filter>
+        <filter-name>myFilter1</filter-name>
+        <filter-class>Chapter_11_example.MyFilter1</filter-class>
+        <init-param>
+            <param-name>para1</param-name>
+            <param-value>para1_value</param-value>
+        </init-param>
+    </filter>
+    <filter>
+        <filter-name>myFilter</filter-name>
+        <filter-class>Chapter_11_example.MyFilter2</filter-class>
+        <init-param>
+            <param-name>para1</param-name>
+            <param-value>para1_value</param-value>
+        </init-param>
+    </filter>
+    <filter>
+        <filter-name>Myfilter3</filter-name>
+        <filter-class>Chapter_11_example.Myfilter3</filter-class>
+        <init-param>
+            <param-name>IP</param-name>
+            <param-value>127.0.0.1</param-value>
+        </init-param>
+    </filter>
+
+
+    <filter-mapping>
+        <filter-name>myFilter1</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>myFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>Myfilter3</filter-name>
+        <url-pattern>/success.jsp</url-pattern>
+    </filter-mapping>
+
+    <!--    第十二章MVC开发模式-->
+    <servlet>
+        <servlet-name>controllerServlet</servlet-name>
+        <servlet-class>Chapter_12_example.ControllerServlet</servlet-class>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>zhangsan</param-value>
+        </init-param>
+    </servlet>
+    <servlet>
+        <servlet-name>CalculatorServlet</servlet-name>
+        <servlet-class>Chapter_12_example.CalculatorServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>controllerServlet</servlet-name>
+        <url-pattern>/controllerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CalculatorServlet</servlet-name>
+        <url-pattern>/calculatorServlet</url-pattern>
+    </servlet-mapping>
+
+
+
 </web-app>
